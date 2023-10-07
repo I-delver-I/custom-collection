@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomCollectionLib", "CustomCollectionLib\CustomCollectionLib.csproj", "{BEBA01C6-77E2-4F73-B35C-561AD70465B5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BEBA01C6-77E2-4F73-B35C-561AD70465B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEBA01C6-77E2-4F73-B35C-561AD70465B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEBA01C6-77E2-4F73-B35C-561AD70465B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEBA01C6-77E2-4F73-B35C-561AD70465B5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
