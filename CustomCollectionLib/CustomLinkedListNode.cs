@@ -2,8 +2,6 @@
 
 public sealed class CustomLinkedListNode<T>
 {
-    private CustomLinkedListNode<T>? _next;
-    private CustomLinkedListNode<T>? _previous;
     private T _value;
 
     public CustomLinkedListNode(CustomLinkedList<T> list, T value)
@@ -14,17 +12,9 @@ public sealed class CustomLinkedListNode<T>
 
     public CustomLinkedList<T>? List { get; private set; }
 
-    public CustomLinkedListNode<T>? Next
-    {
-        get => _next != null && _next != List!.Head ? _next : null;
-        set => _next = value;
-    }
+    public CustomLinkedListNode<T>? Next { get; set; }
 
-    public CustomLinkedListNode<T>? Previous
-    {
-        get => _previous != null && this != List!.Head ? _previous : null;
-        set => _previous = value;
-    }
+    public CustomLinkedListNode<T>? Previous { get; set; }
 
     public T Value
     {
@@ -37,7 +27,7 @@ public sealed class CustomLinkedListNode<T>
     public void Clear()
     {
         List = null;
-        _next = null;
-        _previous = null;
+        Next = null;
+        Previous = null;
     }
 }
