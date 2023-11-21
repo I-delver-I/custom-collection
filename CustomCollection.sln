@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomCollectionLib", "Cust
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomCollectionTestingApp", "CustomCollectionTestingApp\CustomCollectionTestingApp.csproj", "{CD9DD80F-09D4-4270-954B-405D232948DF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomCollectionLib.Tests", "CustomCollectionLib.Tests\CustomCollectionLib.Tests.csproj", "{7380AB6A-86C3-483B-B1EA-5BB49B75AB68}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{CD9DD80F-09D4-4270-954B-405D232948DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CD9DD80F-09D4-4270-954B-405D232948DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CD9DD80F-09D4-4270-954B-405D232948DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7380AB6A-86C3-483B-B1EA-5BB49B75AB68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7380AB6A-86C3-483B-B1EA-5BB49B75AB68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7380AB6A-86C3-483B-B1EA-5BB49B75AB68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7380AB6A-86C3-483B-B1EA-5BB49B75AB68}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
